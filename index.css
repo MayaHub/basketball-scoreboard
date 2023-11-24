@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    background-color: blueviolet;
+    color: white;
+    
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.heading {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: center;
+    margin: 10px 5px;
+}
+
+.score {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    /* border: 1px solid white; */
+    padding: 10px;
+    color: red;
+    margin-top: auto;
+    margin-bottom: 15px;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 50px;
+}
+
+.score-btn {
+    background-color: black;
+    color: #9AABD8;
+    border-color: #9AABD8;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+
